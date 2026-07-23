@@ -109,7 +109,7 @@ export function getPackages(t: PricingTranslator): PackageTier[] {
       ],
       bestFor: t(($) => $.packages.one.bestFor),
       cta: t(($) => $.packages.one.cta),
-      popular: true,
+      popular: false,
     },
     {
       name: t(($) => $.packages.two.name),
@@ -123,7 +123,7 @@ export function getPackages(t: PricingTranslator): PackageTier[] {
       ],
       bestFor: t(($) => $.packages.two.bestFor),
       cta: t(($) => $.packages.two.cta),
-      popular: false,
+      popular: true,
     },
     {
       name: t(($) => $.packages.three.name),
